@@ -7,10 +7,13 @@
 
 body {
   font-family: 'JetBrains Mono', monospace;
+  background-color: #0d1117;
+  color: #c9d1d9;
 }
 
 a {
   text-decoration: none;
+  color: #58a6ff;
 }
 
 .post-grid {
@@ -26,6 +29,8 @@ a {
   background: #161b22;
   text-decoration: none;
   transition: transform 0.1s ease, box-shadow 0.1s ease;
+  background: #161b22;
+  color: #c9d1d9;
 }
 
 .post-card:hover {
@@ -53,3 +58,12 @@ a {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+.site-header {
+  background: #0d1117;
+}
+
+.site-footer {
+  background: #0d1117;
+}
+
