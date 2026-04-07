@@ -1,69 +1,48 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
-
-@import "minima";
-
 body {
-  font-family: 'JetBrains Mono', monospace;
   background-color: #0d1117;
   color: #c9d1d9;
 }
 
-a {
-  text-decoration: none;
-  color: #58a6ff;
-}
-
-.post-grid {
-  display: grid;
-  gap: 16px;
-  margin-top: 10px;
-}
-
-.post-card {
-  display: block;
-  padding: 16px;
-  border-radius: 10px;
-  background: #161b22;
-  text-decoration: none;
-  transition: transform 0.1s ease, box-shadow 0.1s ease;
-  background: #161b22;
-  color: #c9d1d9;
-}
-
-.post-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
-
-.post-date {
-  font-size: 0.85em;
-  opacity: 0.6;
-  margin-bottom: 6px;
-}
-
-.post-title {
-  font-size: 1.1em;
-  font-weight: 600;
-}
-
-.post-grid {
-  grid-template-columns: 1fr;
-}
-
-@media (min-width: 600px) {
-  .post-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
 .site-header {
-  background: #0d1117;
+  background-color: #0d1117;
+  border-bottom: 1px solid #30363d;
 }
 
 .site-footer {
-  background: #0d1117;
+  background-color: #0d1117;
+  border-top: 1px solid #30363d;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #e6edf3;
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Fix the post list (your current issue) */
+.post-list li {
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+/* If you're using cards */
+.post-card {
+  background: #161b22;
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+@import "minima";
