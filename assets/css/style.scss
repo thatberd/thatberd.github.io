@@ -12,3 +12,44 @@ body {
 a {
   text-decoration: none;
 }
+
+.post-grid {
+  display: grid;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.post-card {
+  display: block;
+  padding: 16px;
+  border-radius: 10px;
+  background: #161b22;
+  text-decoration: none;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.post-date {
+  font-size: 0.85em;
+  opacity: 0.6;
+  margin-bottom: 6px;
+}
+
+.post-title {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.post-grid {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 600px) {
+  .post-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
