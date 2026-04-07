@@ -9,15 +9,10 @@ This is my learning blog.
 
 ---
 
-## Posts
+## Recent posts
 
-{% for post in site.posts %}
+{% for post in site.posts limit:3 %}
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
 ---
-
-## Contact
-
-- Discord: berdwastaken
-- Email: sathvikdhanyamraju@gmail.com

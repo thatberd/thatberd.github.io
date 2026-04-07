@@ -2,4 +2,9 @@ title: thatberd's blog
 theme: minima
 
 minima:
-  skin: dark
+  skin: darks
+
+header_pages:
+  - index.md
+  - posts.md
+  - contact.md
