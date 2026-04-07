@@ -7,6 +7,8 @@ title: Home
 
 This is my learning blog.
 
+---
+
 ## Posts
 
 {% for post in site.posts %}
