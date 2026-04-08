@@ -1,49 +1,47 @@
 ---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
-@import "minima";
+//
+//                        ___
+//                       /\_ \
+//  _____     ___     ___\//\ \      __
+// /\ '__`\  / __`\  / __`\\ \ \   /'__`\
+// \ \ \_\ \/\ \_\ \/\ \_\ \\_\ \_/\  __/
+//  \ \ ,__/\ \____/\ \____//\____\ \____\
+//   \ \ \/  \/___/  \/___/ \/____/\/____/
+//    \ \_\
+//     \/_/
+//
+// Designed, built, and released under MIT license by @mdo. Learn more at
+// https://github.com/poole/poole.
 
-body {
-  background-color: #0d1117;
-  color: #c9d1d9;
+@import "variables";
+@import "base";
+@import "type";
+@import "syntax";
+@import "code";
+@import "layout";
+@import "masthead";
+@import "posts";
+@import "pagination";
+@import "message";
+@import "toc";
+
+// Sass for creating the swatches
+.colors {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+
+  dt {
+    width: 3rem;
+    height: 3rem;
+    border-radius: var(--border-radius);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.15);
+  }
+
+  dd {
+    margin-left: var(--spacer);
+  }
 }
-
-.site-header {
-  background-color: #0d1117;
-  border-bottom: 1px solid #30363d;
-}
-
-.site-footer {
-  background-color: #0d1117;
-  border-top: 1px solid #30363d;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #e6edf3;
-}
-
-a {
-  color: #58a6ff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Fix the post list (your current issue) */
-.post-list li {
-  border-bottom: 1px solid #30363d;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
-/* If you're using cards */
-.post-card {
-  background: #161b22;
-  color: #c9d1d9;
-  border: 1px solid #30363d;
-}
-
-

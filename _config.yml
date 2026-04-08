@@ -1,10 +1,25 @@
-title: thatberd's blog
-theme: minima
+title: thatberd
+tagline: Personal dev blog
+description: Personal dev blog
+url: "https://thatberd.github.io"
+baseurl: ""
+paginate: 5
+permalink: pretty
 
-minima:
-  skin: dark
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
 
-header_pages:
-  - index.md
-  - posts.md
-  - contact.md
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+nav:
+  - title: Posts
+    url: /posts
+  - title: Contact
+    url: /contact
