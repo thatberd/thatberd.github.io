@@ -6,14 +6,18 @@ permalink: /posts/
 
 # Posts
 
-Browse all posts by month and year.
+Browse all blog posts.
 
-{% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
-{% for yearMonth in postsByYearMonth %}
-  <h2>{{ yearMonth.name }}</h2>
-  <ul>
-    {% for post in yearMonth.items %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+<div class="post-grid">
+  {% for post in site.posts %}
+    <a href="{{ post.url | relative_url }}" class="post-card">
+      <div class="post-card-content">
+        <h2>{{ post.title }}</h2>
+        <p class="post-date">{{ post.date | date: "%b %d, %Y" }}</p>
+        <p class="post-excerpt">
+          {{ post.excerpt | strip_html | truncate: 120 }}
+        </p>
+      </div>
+    </a>
+  {% endfor %}
+</div>

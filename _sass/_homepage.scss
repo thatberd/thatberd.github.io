@@ -1,0 +1,45 @@
+// Homepage card-based layout styling
+.intro {
+  margin-bottom: 2rem;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.post-card {
+  display: block;
+  text-decoration: none;
+  background: var(--dark-poole-001);
+  border-radius: 14px;
+  padding: 1.4rem;
+  transition: all 0.15s ease;
+  color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.post-card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: var(--heading-color);
+}
+
+.post-date {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  margin-bottom: 0.6rem;
+}
+
+.post-excerpt {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  line-height: 1.5;
+}
