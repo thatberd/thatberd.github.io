@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Contact
+title: contact
 permalink: /contact/
+---
+
 ---
 
 You can reach me here:

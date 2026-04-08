@@ -1,6 +1,6 @@
-title: thatberd
-tagline: Personal dev blog
-description: Personal dev blog
+title: thatberd's blog
+tagline: my personal blog
+description: my personal blog
 url: "https://thatberd.github.io"
 baseurl: ""
 paginate: 5
@@ -19,7 +19,10 @@ sass:
   style: :compressed
 
 nav:
-  - title: Posts
+  - title: posts
     url: /posts
-  - title: Contact
+  - title: about
+    url: /about
+  - title: contact
     url: /contact
+

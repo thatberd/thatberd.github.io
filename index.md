@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Home
+title: home
+---
+
 ---
 
 <div class="intro">
@@ -9,6 +11,8 @@ title: Home
   <p>This is my learning blog.</p>
   <p>I update this blog with interesting things I learn, related or unrelated to programming.</p>
 </div>
+
+---
 
 <div class="post-grid">
   {% for post in site.posts %}

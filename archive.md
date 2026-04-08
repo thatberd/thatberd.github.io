@@ -4,7 +4,9 @@ title: Posts
 permalink: /posts/
 ---
 
-# Posts
+# posts
+
+---
 
 Browse all blog posts.
 

@@ -6,7 +6,10 @@
     <div class="container content">
       <header class="masthead">
         <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          <div class="title-container">
+            <img src="{{ '/assets/favicon.ico' | relative_url }}" alt="Blog Icon" class="blog-icon">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          </div>
 
           <nav class="nav">
             {% for nav in site.nav %}
