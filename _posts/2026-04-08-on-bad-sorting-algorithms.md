@@ -1,6 +1,6 @@
 ---
 layout: post
-title: on bad sorting algorithms
+title: "on bad sorting algorithms"
 ---
   
 I was looking at sorting algorithms and some of them are just… bad.  

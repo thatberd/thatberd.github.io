@@ -1,6 +1,6 @@
 ---
 layout: post
-title: sheepy, a short adventure
+title: "sheepy: a short adventure"
 ---
 
 There are certain games that you appreciate more than others.  
