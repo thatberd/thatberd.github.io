@@ -15,14 +15,15 @@ title: home
 ---
 
 <div class="post-grid">
-  {% for post in site.posts %}
-    <a href="{{ post.url | relative_url }}" class="post-card">
+  {% for post in site.posts limit:3 %}
+    <a class="post-card" href="{{ post.url }}">
       <div class="post-card-content">
-        <h2>{{ post.title }}</h2>
-        <p class="post-date">{{ post.date | date: "%b %d, %Y" }}</p>
-        <p class="post-excerpt">
-          {{ post.excerpt | strip_html | truncate: 120 }}
-        </p>
+        <div class="post-date">
+          {{ post.date | date: "%b %d, %Y" }}
+        </div>
+        <div class="post-title">
+          {{ post.title }}
+        </div>
       </div>
     </a>
   {% endfor %}
