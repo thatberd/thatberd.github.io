@@ -60,3 +60,5 @@ It’s surprisingly practical once you get used to it, especially for small thin
 I still wouldn’t say it replaces a proper setup, because that's not what it's meant for. Though it is  good enough for a lot more than you’d expect.
 
 I think that’s why I’ve stuck with it for so long. It’s useful, but also just nice to have around.
+
+Thanks for reading :)

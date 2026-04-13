@@ -101,3 +101,5 @@ I don’t think losing interest in a project always means you failed.
 Sometimes it just means you got what you needed from it.
 
 And if you notice when that shift happens, you can decide what to do next a bit more intentionally, instead of just drifting away from it without really knowing why.
+
+Thanks for reading :)
