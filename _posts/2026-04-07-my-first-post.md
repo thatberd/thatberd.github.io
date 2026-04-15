@@ -2,6 +2,7 @@
 layout: post
 title: "my first post"
 ---
+<!-- day 1 -->
 
 I keep learning things and forgetting them, so I’m writing them down here.
 

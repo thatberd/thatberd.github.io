@@ -2,13 +2,11 @@
 layout: post
 title: "what even is a desktop shell?"
 ---
+<!-- day 9 -->
 
 I’ve been using a computer for years, and this is one of those things I never really questioned.
 
-There’s a desktop.  
-There are windows.  
-There’s a panel.  
-You open apps, switch between them, move things around.
+There’s a desktop, there are windows, there's a panel, and you open apps, switch between them, move things around.
 
 It all just feels like one thing.
 

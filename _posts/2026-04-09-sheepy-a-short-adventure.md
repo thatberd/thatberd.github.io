@@ -2,6 +2,7 @@
 layout: post
 title: "sheepy: a short adventure"
 ---
+<!-- day 3 -->
 
 There are certain games that you appreciate more than others.  
 Usually, because something from them sticks with you that bigger games don't really have.

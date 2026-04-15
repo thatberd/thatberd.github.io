@@ -2,7 +2,8 @@
 layout: post
 title: "on bad sorting algorithms"
 ---
-  
+<!-- day 2 -->
+
 I was looking at sorting algorithms and some of them are just… bad.  
   
 Not slightly inefficient. Just completely impractical.  

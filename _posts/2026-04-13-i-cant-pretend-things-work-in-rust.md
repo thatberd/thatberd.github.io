@@ -2,6 +2,8 @@
 layout: post
 title: "i can't pretend things work in rust"
 ---
+<!-- day 7 -->
+
 I’ve been noticing this more the longer I use Rust.
 
 It’s hard to leave things in a half-working state and just move on.

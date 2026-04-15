@@ -2,6 +2,8 @@
 layout: post
 title: "why we lose interest in some projects"
 ---
+<!-- day 6 -->
+
 I haven’t actually started that many projects.
 
 Not in the “my GitHub is full of abandoned repos” way. Mine is… mostly empty.

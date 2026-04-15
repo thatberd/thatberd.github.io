@@ -2,6 +2,8 @@
 layout: post
 title: "why vibe coding doesn't work for me"
 ---
+<!-- day 8 -->
+
 I’ve been trying vibecoding for a the last week, mostly out of curiosity, since it keeps popping up everywhere and I wanted to see what it actually feels like in practice.
 
 ---

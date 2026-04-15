@@ -2,6 +2,7 @@
 layout: post
 title: "why i think openclaw was a bit overhyped"
 ---
+<!-- day 4 -->
 
 I kept seeing OpenClaw everywhere, people talking about it like it’s the next big thing.
 

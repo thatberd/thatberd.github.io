@@ -2,6 +2,8 @@
 layout: post
 title: "why i love termux"
 ---
+<!-- day 5 -->
+
 I’ve been using Termux for around 2 years now. 
 
 I don’t even remember why I started using it, but I never really stopped. 
