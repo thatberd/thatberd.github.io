@@ -11,7 +11,7 @@ I’ve been trying vibecoding for a the last week, mostly out of curiosity, sinc
 ## What it is (for those who happen to live under rocks)
 
 Vibecoding is a trend started by renowned researcher Andrej Karpathy.
-From what I understand, it's basically writing code in a very flow-based way. You don't spend much time planning structure upfront. You just start building, keep momentum, and figure things out as they come up.
+From what I understand, it's basically writing code completely with AI. You don't spend much time planning structure upfront. You just start building, keep momentum, and figure things out as they come up.
 
 It is more about staying in motion than designing everything carefully before you start.
 

@@ -43,3 +43,38 @@
   opacity: 0.85;
   line-height: 1.5;
 }
+
+/* Search bar styling */
+#post-search {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background: var(--body-bg);
+  color: var(--body-color);
+  outline: none; /* remove default outline */
+}
+
+/* Remove focus glow */
+#post-search:focus {
+  border-color: var(--border-color);
+  box-shadow: none;
+}
+
+/* Month heading styling */
+.month-heading {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--heading-color);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.3rem;
+}
+
+/* Group container spacing */
+.month-group {
+  margin-top: 1rem;
+}
